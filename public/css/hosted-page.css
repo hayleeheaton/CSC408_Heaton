@@ -1,0 +1,30 @@
+/*!
+ *  Hosted Page default CSS
+ *
+ *  Customizing the values from the theme to meet my needs
+ */
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.navbar {
+    min-height: 40px;
+}
+
+.navbar-default {
+    background-color: #80a2c2;
+    border-color: #80a2c2;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-header > #account {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}

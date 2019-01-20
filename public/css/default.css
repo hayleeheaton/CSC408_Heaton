@@ -1,0 +1,109 @@
+.navbar-default {
+    background-color: #328eb2;
+}
+
+#footer {
+    background-color: #328eb2;
+    color: #fffffd;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fffffd;
+}
+
+.navbar-default .navbar-nav > .open > a {
+    background-color: #0e5066;
+    color: #fffffd;
+}
+
+
+.profile {
+    min-height: 535px;
+}
+
+span.stars, span.stars span {
+    display: block;
+    background: url(http://www.yellowbucketdev.com/img/stars.png) 0 -18px repeat-x;
+    width: 120px;
+    height: 18px;
+}
+
+span.stars span {
+    background-position: 0 0;
+}
+
+
+/* navbar */
+.navbar-default {
+    background-color: #328eb2;
+    border-color: #0e5066;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #fffffd;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #f4e5bc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fffffd;
+    background-color: #0e5066;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fffffd;
+    border-bottom-color: #fffffd;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #f4e5bc;
+    border-bottom-color: #f4e5bc;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #fffffd;
+    border-bottom-color: #fffffd;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+.navbar-brand {
+    height: 55px;
+}
