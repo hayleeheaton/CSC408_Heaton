@@ -13,5 +13,9 @@ class Movie extends Model
     protected $fillable = [
         'title', 'rating', 'length', 'onDVD', 'onBluRay', 'description'
     ];
-    
+
+    public function renters()
+    {
+        return $this->belongsToMany('App\Movie', 'rentals');
+    }
 }
