@@ -14,7 +14,7 @@ class Movie extends Model
         'title', 'rating', 'length', 'onDVD', 'onBluRay', 'description'
     ];
 
-    public function renters()
+    public function rentals()
     {
         return $this->belongsToMany('App\Movie', 'rentals');
     }
