@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 /*Customer Routes*/
-Route::resource('/customers', 'ApiCustomerController');
+Route::resource('/customer', 'ApiCustomerController');
 Route::get('/customer/{id}/rentals', 'ApiCustomerController@rentals');
 
 /*Movie Routes*/
